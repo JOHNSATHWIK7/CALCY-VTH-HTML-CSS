@@ -10,7 +10,7 @@
   --input : rgba(71, 61, 79, 0.852);
   --numbtn : rgb(100, 68, 0);
   --symbols : rgb(90, 105, 87);
-  --eval : rgb(242, 248, 246);
+  --eval : brown;
 }
 
 body{
@@ -77,4 +77,5 @@ td{
 
 .eval{
   background-color: var(--assign);
+  color : white;
 }
