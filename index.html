@@ -61,13 +61,13 @@
       </tr>
       <tr>
         <td>
-          <input type="button" class="eval btn" onclick="calculator.input.value = ''" value="c">
+          <input type="button" class="eval btn" onclick="calculator.input.value = eval(calculator.input.value)" value="=">
         </td>
         <td>
           <input type="button" class="btn numbtn" onclick="calculator.input.value += '0'" value="0">
         </td>
         <td>
-          <input type="button" class="eval btn" onclick="calculator.input.value = eval(calculator.input.value)" value="=">
+          <input type="button" class="eval btn" onclick="calculator.input.value = ''" value="c">
         </td>
         <td>
           <input type="button" class="btn symbols" onclick="calculator.input.value += '/'" value="/">
