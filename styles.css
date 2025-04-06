@@ -5,10 +5,10 @@
 }
 
 :root{
-  --body : rgba(158, 77, 124, 0.31);
-  --calcy : rgba(25, 183, 222, 0.397);
+  --body : rgba(0, 0, 0, 0.974);
+  --calcy : rgb(17, 129, 157);
   --input : rgba(71, 61, 79, 0.852);
-  --numbtn : rgb(100, 68, 0);
+  --numbtn : rgb(59, 54, 79);
   --symbols : rgb(90, 105, 87);
   --eval : rgb(0, 0, 0);
 }
@@ -72,7 +72,7 @@ td{
 
 .symbols{
   background-color: var(--symbols);
-  color: pink;
+  color: rgb(0, 0, 0);
 }
 
 .eval{
